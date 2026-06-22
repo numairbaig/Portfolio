@@ -52,6 +52,7 @@ myportfolio/
 * **MongoDB**: A running local MongoDB instance OR a MongoDB Atlas cluster URL.
 
 ---
+<<<<<<< HEAD
 
 ## Installation & Setup
 
@@ -113,10 +114,13 @@ In production, the backend Node app is configured to host the static compiled Re
    ```bash
    npm run server
    ```
+=======
+>>>>>>> 46dbfe53fde15d6ca2cda0e7eef57a3b556ac663
 5. Add your Environment Variables in the Render Settings panel:
    * `MONGODB_URI` = `your_mongodb_connection_url`
    * `JWT_SECRET` = `your_secret_key`
    * `NODE_ENV` = `production`
+<<<<<<< HEAD
 
 ### Steps to Deploy Frontend on Vercel:
 Vercel is designed for static hosting. Because the frontend code is in a subfolder (`client`), you must configure the root directory in the Vercel dashboard so that it installs the correct dependencies (like `vite`) before building:
@@ -130,3 +134,5 @@ Vercel is designed for static hosting. Because the frontend code is in a subfold
    * **Output Directory** is set to `dist` (or left default).
 5. Click **Deploy**. Vercel will now run `npm install` inside the `client` folder, install `vite` successfully, and build the static files.
 
+=======
+>>>>>>> 46dbfe53fde15d6ca2cda0e7eef57a3b556ac663
