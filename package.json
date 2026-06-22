@@ -8,7 +8,7 @@
     "server": "node server/server.js",
     "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm run build --prefix client"
+    "build": "npm install --prefix client --legacy-peer-deps && npm run build --prefix client && mkdir -p dist && cp -r client/dist/. dist/"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
