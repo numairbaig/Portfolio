@@ -1,5 +1,6 @@
 # Premium MERN Stack Developer Portfolio
-Link:https://numairbaig.vercel.app/
+link:https://numairbaig.vercel.app/
+
 A modern, highly interactive, and responsive full-stack developer portfolio. Built using a **React + Vite** frontend, a **Node.js + Express** backend API, and a live **MongoDB Atlas** database.
 
 The application includes a secure **Admin Dashboard Console** (`/admin`) for viewing contact inbox submissions, modifying projects list data, and updating career experiences timeline in real time.
